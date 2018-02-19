@@ -1146,7 +1146,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/asus/Z017/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/asus/Z017/proprietary/bin/is_keybox_valid:system/bin/is_keybox_valid \
-    vendor/asus/Z017/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/asus/Z017/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/asus/Z017/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/asus/Z017/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -1307,17 +1306,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/asus/Z017/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/asus/Z017/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/asus/Z017/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
-    vendor/asus/Z017/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.quicinc.wbc.xml:system/etc/permissions/com.quicinc.wbc.xml \
     vendor/asus/Z017/proprietary/etc/permissions/com.quicinc.wbcservice.xml:system/etc/permissions/com.quicinc.wbcservice.xml \
     vendor/asus/Z017/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/asus/Z017/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/asus/Z017/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
-    vendor/asus/Z017/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/asus/Z017/proprietary/etc/permissions/qcom_logkit.xml:system/etc/permissions/qcom_logkit.xml \
     vendor/asus/Z017/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/asus/Z017/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
@@ -1337,16 +1332,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/asus/Z017/proprietary/framework/com.asus.fm.jar:system/framework/com.asus.fm.jar \
     vendor/asus/Z017/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/asus/Z017/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/asus/Z017/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/asus/Z017/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/asus/Z017/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/asus/Z017/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
     vendor/asus/Z017/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
     vendor/asus/Z017/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/asus/Z017/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/asus/Z017/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
-    vendor/asus/Z017/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/asus/Z017/proprietary/framework/oem-services.jar:system/framework/oem-services.jar \
     vendor/asus/Z017/proprietary/framework/qcmediaplayer.jar:system/framework/qcmediaplayer.jar \
     vendor/asus/Z017/proprietary/framework/qmapbridge.jar:system/framework/qmapbridge.jar \
@@ -1356,20 +1348,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/asus/Z017/proprietary/framework/rcsservice.jar:system/framework/rcsservice.jar \
     vendor/asus/Z017/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/asus/Z017/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/asus/Z017/proprietary/lib/hw/hwcomposer.msm8953.so:system/lib/hw/hwcomposer.msm8953.so \
     vendor/asus/Z017/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/asus/Z017/proprietary/lib/libTEEService.so:system/lib/libTEEService.so \
     vendor/asus/Z017/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/asus/Z017/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
-    vendor/asus/Z017/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
-    vendor/asus/Z017/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/asus/Z017/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/asus/Z017/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/asus/Z017/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/asus/Z017/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/asus/Z017/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
-    vendor/asus/Z017/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
     vendor/asus/Z017/proprietary/lib/libqcmediaplayer.so:system/lib/libqcmediaplayer.so \
     vendor/asus/Z017/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
     vendor/asus/Z017/proprietary/lib/libqservice.so:system/lib/libqservice.so \
@@ -1384,7 +1367,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/lib/hw/sensors.PS_ALS.msm8953.so:system/lib/hw/sensors.PS_ALS.msm8953.so \
     vendor/asus/Z017/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
     vendor/asus/Z017/proprietary/lib/soundfx/libicepower.so:system/lib/soundfx/libicepower.so \
-    vendor/asus/Z017/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/asus/Z017/proprietary/lib64/hw/hwcomposer.msm8953.so:system/lib64/hw/hwcomposer.msm8953.so \
     vendor/asus/Z017/proprietary/lib64/hw/sensors.AKM.msm8953.so:system/lib64/hw/sensors.AKM.msm8953.so \
     vendor/asus/Z017/proprietary/lib64/hw/sensors.PS_ALS.msm8953.so:system/lib64/hw/sensors.PS_ALS.msm8953.so \
@@ -1394,14 +1376,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/lib64/libdashplayer.so:system/lib64/libdashplayer.so \
     vendor/asus/Z017/proprietary/lib64/libdhcpcd.so:system/lib64/libdhcpcd.so \
     vendor/asus/Z017/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
-    vendor/asus/Z017/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
-    vendor/asus/Z017/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/asus/Z017/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/asus/Z017/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/asus/Z017/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/asus/Z017/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/asus/Z017/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
-    vendor/asus/Z017/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
     vendor/asus/Z017/proprietary/lib64/libmvplayer-library.so:system/lib64/libmvplayer-library.so \
     vendor/asus/Z017/proprietary/lib64/libqcmediaplayer.so:system/lib64/libqcmediaplayer.so \
     vendor/asus/Z017/proprietary/lib64/libqdutils.so:system/lib64/libqdutils.so \
@@ -1421,7 +1395,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/asus/Z017/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/asus/Z017/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/asus/Z017/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/asus/Z017/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/asus/Z017/proprietary/vendor/etc/RIDL/GoldenLogmask.dmc:system/vendor/etc/RIDL/GoldenLogmask.dmc \
     vendor/asus/Z017/proprietary/vendor/etc/RIDL/OTA-Logs.dmc:system/vendor/etc/RIDL/OTA-Logs.dmc \
@@ -1476,7 +1449,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/asus/Z017/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/asus/Z017/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
-    vendor/asus/Z017/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/asus/Z017/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/asus/Z017/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/asus/Z017/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
@@ -1505,7 +1477,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/asus/Z017/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/asus/Z017/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
     vendor/asus/Z017/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/asus/Z017/proprietary/vendor/lib/libFIDOKeyProvisioning.so:system/vendor/lib/libFIDOKeyProvisioning.so \
     vendor/asus/Z017/proprietary/vendor/lib/libFidoCrypto.so:system/vendor/lib/libFidoCrypto.so \
@@ -1554,12 +1525,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/asus/Z017/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
     vendor/asus/Z017/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/asus/Z017/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
     vendor/asus/Z017/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/asus/Z017/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/asus/Z017/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/asus/Z017/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
@@ -1577,7 +1544,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/asus/Z017/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/asus/Z017/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/asus/Z017/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/asus/Z017/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/asus/Z017/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
@@ -1587,18 +1553,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/asus/Z017/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/asus/Z017/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
     vendor/asus/Z017/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/asus/Z017/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/asus/Z017/proprietary/vendor/lib/libesepm.so:system/vendor/lib/libesepm.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
     vendor/asus/Z017/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/asus/Z017/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/asus/Z017/proprietary/vendor/lib/libfastrpc_aue_stub.so:system/vendor/lib/libfastrpc_aue_stub.so \
     vendor/asus/Z017/proprietary/vendor/lib/libfastrpc_utf_stub.so:system/vendor/lib/libfastrpc_utf_stub.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/asus/Z017/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/asus/Z017/proprietary/vendor/lib/libhbtpclient.so:system/vendor/lib/libhbtpclient.so \
     vendor/asus/Z017/proprietary/vendor/lib/libhbtpdsp.so:system/vendor/lib/libhbtpdsp.so \
@@ -1607,21 +1568,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/asus/Z017/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/asus/Z017/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/asus/Z017/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
-    vendor/asus/Z017/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/asus/Z017/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/asus/Z017/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/asus/Z017/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/asus/Z017/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
-    vendor/asus/Z017/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/asus/Z017/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/asus/Z017/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/asus/Z017/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
-    vendor/asus/Z017/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/asus/Z017/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/asus/Z017/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/asus/Z017/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
@@ -1668,7 +1619,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/asus/Z017/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/asus/Z017/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/asus/Z017/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
     vendor/asus/Z017/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
     vendor/asus/Z017/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
@@ -1724,7 +1674,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
     vendor/asus/Z017/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
     vendor/asus/Z017/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/asus/Z017/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/asus/Z017/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/asus/Z017/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
@@ -1748,9 +1697,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/asus/Z017/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/asus/Z017/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/asus/Z017/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/asus/Z017/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/asus/Z017/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
     vendor/asus/Z017/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
@@ -1782,7 +1728,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/asus/Z017/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/asus/Z017/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:system/vendor/lib64/hw/activity_recognition.msm8953.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/asus/Z017/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/asus/Z017/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
     vendor/asus/Z017/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
@@ -1812,7 +1757,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libFIDOKeyProvisioning.so:system/vendor/lib64/libFIDOKeyProvisioning.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libFidoCrypto.so:system/vendor/lib64/libFidoCrypto.so \
@@ -1857,10 +1801,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
@@ -1887,18 +1827,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libesepm.so:system/vendor/lib64/libesepm.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libfastrpc_aue_stub.so:system/vendor/lib64/libfastrpc_aue_stub.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libfastrpc_utf_stub.so:system/vendor/lib64/libfastrpc_utf_stub.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libhbtpclient.so:system/vendor/lib64/libhbtpclient.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libhbtpdsp.so:system/vendor/lib64/libhbtpdsp.so \
@@ -1907,19 +1842,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/asus/Z017/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
@@ -1963,7 +1888,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/asus/Z017/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
@@ -2016,7 +1940,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libwbc_jni.so:system/vendor/lib64/libwbc_jni.so \
@@ -2038,9 +1961,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/asus/Z017/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/asus/Z017/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/asus/Z017/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
@@ -2061,6 +1981,91 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     qcrilhook
+
+#GPS
+PRODUCT_COPY_FILES += \
+    vendor/asus/Z017/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/asus/Z017/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+    vendor/asus/Z017/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/asus/Z017/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
+    vendor/asus/Z017/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/asus/Z017/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/asus/Z017/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/asus/Z017/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
+    vendor/asus/Z017/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/asus/Z017/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/asus/Z017/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \    
+    vendor/asus/Z017/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/asus/Z017/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/asus/Z017/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
+    vendor/asus/Z017/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
+    vendor/asus/Z017/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \    
+    vendor/asus/Z017/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/asus/Z017/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
+    vendor/asus/Z017/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libdrplugin_client.so:system/vendor/lib/libdrplugin_client.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/asus/Z017/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
+    vendor/asus/Z017/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/asus/Z017/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+    vendor/asus/Z017/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/asus/Z017/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
+    vendor/asus/Z017/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
+    vendor/asus/Z017/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/asus/Z017/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/asus/Z017/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/asus/Z017/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \    
+    vendor/asus/Z017/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    vendor/asus/Z017/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/asus/Z017/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
+    vendor/asus/Z017/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
+    vendor/asus/Z017/proprietary/lib64/libloc_ext.so:system/lib64/libloc_ext.so \    
+    vendor/asus/Z017/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+    vendor/asus/Z017/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
+    vendor/asus/Z017/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+       
 endif
 
 -include vendor/extra/devices.mk
