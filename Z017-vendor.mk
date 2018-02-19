@@ -287,7 +287,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/lib64/libAsusRGBSensorHAL.so:system/lib64/libAsusRGBSensorHAL.so \
     vendor/asus/Z017/proprietary/lib64/libDUTUtil-JNI.so:system/lib64/libDUTUtil-JNI.so \
     vendor/asus/Z017/proprietary/lib64/libGVoucher.so:system/lib64/libGVoucher.so \
-    vendor/asus/Z017/proprietary/lib64/libbitmaps.so:system/lib64/libbitmaps.so \
     vendor/asus/Z017/proprietary/lib64/libcctapi.so:system/lib64/libcctapi.so \
     vendor/asus/Z017/proprietary/lib64/libcrashlytics-envelope.so:system/lib64/libcrashlytics-envelope.so \
     vendor/asus/Z017/proprietary/lib64/libcrashlytics.so:system/lib64/libcrashlytics.so \
