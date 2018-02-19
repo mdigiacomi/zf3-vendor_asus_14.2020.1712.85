@@ -1994,12 +1994,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/asus/Z017/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/asus/Z017/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/asus/Z017/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \    
+    vendor/asus/Z017/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/asus/Z017/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/asus/Z017/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/asus/Z017/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
     vendor/asus/Z017/proprietary/lib/libloc_stub.so:system/lib/libloc_stub.so \
-    vendor/asus/Z017/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \    
+    vendor/asus/Z017/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
     vendor/asus/Z017/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/asus/Z017/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/asus/Z017/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
