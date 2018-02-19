@@ -2064,7 +2064,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/asus/Z017/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
-    vendor/asus/Z017/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/asus/Z017/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so 
        
 endif
 
