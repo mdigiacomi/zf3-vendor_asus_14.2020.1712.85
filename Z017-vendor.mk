@@ -2030,12 +2030,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/asus/Z017/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/asus/Z017/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/asus/Z017/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \    
+    vendor/asus/Z017/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/asus/Z017/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/asus/Z017/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/asus/Z017/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
     vendor/asus/Z017/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
-    vendor/asus/Z017/proprietary/lib64/libloc_ext.so:system/lib64/libloc_ext.so \    
+    vendor/asus/Z017/proprietary/lib64/libloc_ext.so:system/lib64/libloc_ext.so \
     vendor/asus/Z017/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/asus/Z017/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/asus/Z017/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
