@@ -1988,8 +1988,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z017/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/asus/Z017/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/asus/Z017/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/asus/Z017/proprietary/etc/izat.conf:system/etc/lowi.conf \
-    vendor/asus/Z017/proprietary/etc/sap.conf:system/etc/izat.conf \
+    vendor/asus/Z017/proprietary/etc/lowi.conf:system/etc/lowi.conf \
+    vendor/asus/Z017/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/asus/Z017/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/asus/Z017/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/asus/Z017/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
